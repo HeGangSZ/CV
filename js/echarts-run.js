@@ -62,5 +62,15 @@ $(document).ready(function(){
         ]
     };
 
+    if($(document).width() <= 768){
+        option.series[0].data = [
+            {value:250, name:'具备抗压能力'},
+            {value:274, name:'富有责任感'},
+            {value:330, name:'饱含技术激情'},
+            {value:380, name:'快速学习'},
+        ]
+        option.series[0].label.normal.textStyle.fontSize =10;
+    }
+
     myChart.setOption(option);
 });

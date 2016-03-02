@@ -2,6 +2,12 @@
  * Created by Neo on 2016/2/29.
  */
 $(document).ready(function() {
+    if($(document).width() > 768){
+        var img =$('.lufei img')
+        img.attr('src', img.attr('realsrc'))
+    }
+
+
     $('#fullpage').fullpage({
         anchors:['1', '2','3','4','5','6','7'],
         navigation: true,
