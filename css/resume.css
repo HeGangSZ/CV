@@ -123,6 +123,9 @@ body{
     border-radius: 50%;
     border: 10px solid #fff;
 }
+.avatar:hover{
+    border: 10px solid #000;
+}
 
 
 .page1{
@@ -137,7 +140,7 @@ body{
 }
 .page4{
     text-align: center;
-    background-color: #3f97be;
+    background-color: #255570;
 }
 .page5{
     background-color: #b89e3d;
@@ -181,7 +184,7 @@ body{
     color: #d4e7b8;
 }
 .page1 a:hover{
-    color: #178D7B;
+    color: #414016;
 }
 .page1 .info{
     animation-delay: 1s;
@@ -226,6 +229,7 @@ h2{
 .skill-color{
     height: 100%;
     background-color: #dde0f4;
+    visibility: hidden;
 }
 
 .HTML{
@@ -325,7 +329,7 @@ h2{
 }
 .lufei p{
     font-size: 20px;
-    color: #000;
+    color: #c5e8ec;
 }
 
 /*page5*/
@@ -500,20 +504,20 @@ h2{
         width: 300px;
     }
     .page7 li{
-        margin-top: 10px;
+        margin-top: 8px;
     }
     .page7 span{
         font-size: 16px;
-        line-height: 30px;
+        line-height: 45px;
     }
 
     .page7 .icon-bg{
-        width: 30px;
-        height: 30px;
+        width: 45px;
+        height: 45px;
     }
 
     .download{
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 20px;
         width: 150px;
         padding: 5px 10px;

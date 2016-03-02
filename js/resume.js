@@ -2,9 +2,12 @@
  * Created by Neo on 2016/2/29.
  */
 $(document).ready(function() {
+
+
     if($(document).width() > 768){
         var img =$('.lufei img')
         img.attr('src', img.attr('realsrc'))
+        setTimeout(function(){ window.scrollTo(0, 1); }, 0);
     }
 
 
@@ -15,16 +18,6 @@ $(document).ready(function() {
         navigationTooltips: ['我的简历', '擅长技术', '项目经验',  '基本信息','核心竞争力','想说的话', '联系我吧'],
         loopBottom: true,
         afterRender: function(){
-
-            //page1
-            $('.avatar').parent().mouseover(function(){
-                $(this).removeClass('flip');
-                $(this).addClass('bounce');
-            });
-            $('.avatar').parent().mouseout(function(){
-                $(this).removeClass('bounce');
-            });
-
             //page3
             $('.project-bg').mouseover(function(){
                 $(this).removeClass('small')
